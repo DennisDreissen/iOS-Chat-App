@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="U2s-0y-3yq">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="PBN-Q6-jdB">
+            <objects>
+                <navigationController id="U2s-0y-3yq" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="UpR-lI-7Oi">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="DpX-CN-C9d" kind="relationship" relationship="rootViewController" id="a0N-ES-tLX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZR-Ta-Ngt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="195" y="550"/>
+        </scene>
+        <!--MQTT Chat Demo-->
+        <scene sceneID="bCf-Hy-N58">
+            <objects>
+                <viewController id="DpX-CN-C9d" customClass="ViewController" customModule="MQTT_Chat" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qBp-x3-EZd"/>
+                        <viewControllerLayoutGuide type="bottom" id="OKj-fi-K9U"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Dlo-kF-f9s">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="MQTT Chat Demo" id="Pjm-2Y-xap"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="knM-YX-Chy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="889" y="550"/>
+        </scene>
+    </scenes>
+</document>

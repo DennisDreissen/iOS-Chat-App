@@ -1,0 +1,2 @@
+#ifndef _DUMMYPTHREAD_H_
+#define _DUMMYPTHRE

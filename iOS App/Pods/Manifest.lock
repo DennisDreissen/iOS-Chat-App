@@ -1,0 +1,25 @@
+PODS:
+  - JSQMessagesViewController (7.2.0):
+    - JSQSystemSoundPlayer (~> 2.0.1)
+  - JSQSystemSoundPlayer (2.0.1)
+  - MQTTKit (0.1.0-next)
+
+DEPENDENCIES:
+  - JSQMessagesViewController
+  - MQTTKit (from `https://github.com/mobile-web-messaging/MQTTKit.git`)
+
+EXTERNAL SOURCES:
+  MQTTKit:
+    :git: https://github.com/mobile-web-messaging/MQTTKit.git
+
+CHECKOUT OPTIONS:
+  MQTTKit:
+    :commit: 8f0753b98a60c8e6030000d877e0ef02e22b198b
+    :git: https://github.com/mobile-web-messaging/MQTTKit.git
+
+SPEC CHECKSUMS:
+  JSQMessagesViewController: 73cab48aa92fc2d512f3b6724f3425cc47a19eb5
+  JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
+  MQTTKit: 513ffc31464db7adeffefac986e228fdf6cd87e5
+
+COCOAPODS: 0.38.2
